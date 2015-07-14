@@ -1,0 +1,24 @@
+{
+  "name": "pg_auth",
+  "version": "1.0.0",
+  "description": "A database project for your auth needs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Rob Conery",
+  "license": "New BSD",
+  "dependencies": {
+    "async": "^1.3.0",
+    "commander": "^2.8.1",
+    "epa": "^0.2.1",
+    "glob": "^5.0.13",
+    "massive": "^2.0.5",
+    "pg": "^4.4.0",
+    "simple-ssh": "^0.8.6",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
